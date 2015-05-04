@@ -1,0 +1,109 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+<div id="wrapper">
+	<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">陳冠鈞</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="#" accesskey="1" title="">主頁</a></li>
+				<li><a href="https://www.facebook.com/" accesskey="2" title="">face book</a></li>
+				<li><a href="file:///C:/Users/x322/Desktop/templated-plaindisplay/index1.html" accesskey="3" title="">分頁</a></li>
+				<li><a href="https://www.youtube.com/watch?v=8Wnx0yFpeU8" accesskey="4" title="">音樂</a></li>
+				<li><a href="https://www.facebook.com/profile.php?id=100002567788429&fref=ts" accesskey="5" title="">好友專欄</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<div id="banner">
+		<div class="container">
+			<div class="title">
+				<h2>冠鈞的世界</h2>
+				<span class="byline">無所不為其及</span> </div>
+				
+				 <div id="personalinfo-content" class="db_pd">
+				     <ul id="p1" class="cl">
+					    <li>
+						   <em>性別</em>
+						   男
+						</li>
+						<li>
+						   <em>居住</em>
+						   金門縣
+						</li>
+						<li>
+						   <em>學歷</em>
+						   國立金門大學資訊工程學系
+						</li>
+						<li>
+						   <em>生日</em>
+						   1994/01/24
+						</li>
+						<li>
+						   <em>情感</em>
+						   穩定交往~~~~
+						</li>
+				     </ul>
+				  </div>
+			   </div>
+			
+		</div>
+	</div>
+	<div id="extra" class="container">
+		<div class="title">
+			<h2>冠軍圖影片</h2>
+			<span class="byline"></span> </div>
+		<div id="three-column">
+			<div class="boxA">
+				<img src="http://www.tucoo.com/photo/dog1/images/Dog_0041.jpg" alt="Mountain View" style="width:304px;height:228px">
+			</div>
+			<div class="boxB">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/LzHFD1sEqpE" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="boxC">
+				
+			</div>
+		</div>
+		<ul class="actions">
+			
+		</ul>
+	</div>
+	<div id="featured">
+		<div class="container">
+			
+		
+	<div id="page" class="container">
+		<div class="title">
+			
+			<li><a href="#" class="button">至頂</a></li>
+		</ul>
+	</div>
+</div>
+<div id="copyright" class="container">
+	
+</div>
+  <div id="frame1_right" style="width:240px" class="z column">
+               <div id="wall" class="block">
+                  <div class="title">
+				   
+                  </div>
+ <div id="ct" class="ct2 wp cl">
+      <div class="mn">
+         <div class="bm">
+            <div class="bm_c">
+               <div class="bm_c">
+  <h1>標題 : {{ post.title }}</h1>
+  <h2>內容</h2>
+  <p>{{ post.body }}</p>
+  <p><a href="./..">返回</a></p>
+  </div>
+            </div>
+         </div>
+      </div>
+   </div>
+{% endblock %}
